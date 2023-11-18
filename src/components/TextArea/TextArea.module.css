@@ -1,0 +1,33 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: center;
+  width: 100%;
+}
+
+.label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 2.8125rem;
+  padding: 0.45rem 0.675rem;
+  color: #fff;
+  background-color: #1a202c;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 0.799875rem;
+}
+
+.input::placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.799875rem;
+  opacity: 0.6;
+}
+
